@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "security.jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "Khoa bi mat (Base64) dung de ky JWT bang HS256."
+    },
+    {
+      "name": "security.jwt.expiration-time",
+      "type": "java.lang.Long",
+      "description": "Thoi gian song cua JWT (millisecond)."
+    }
+  ]
+}
